@@ -6,15 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8191cf19-0829-45fc-8af5-81e38ddb58ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.microplatform/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameQuit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TouchButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TouchButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Logo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Logo/blacklogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Logo/blacklogo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Logo/whitelogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Logo/whitelogo.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.microplatform/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microplatform/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.microplatform/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microplatform/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.microplatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.microplatform/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameQuit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameQuit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameQuit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -37,10 +38,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformPlayerController2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/TouchButton.cs" />
         <option value="$PROJECT_DIR$/Assets/GameQuit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameQuit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
       </list>
     </option>
   </component>
@@ -103,7 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605671035067</updated>
       <workItem from="1605671042687" duration="10805000" />
-      <workItem from="1608382853341" duration="5566000" />
+      <workItem from="1608382853341" duration="5672000" />
+      <workItem from="1608556331395" duration="2875000" />
     </task>
     <servers />
   </component>
@@ -122,6 +125,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -132,5 +136,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="468" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1608383414039" />
+    <state x="92" y="92" width="1736" height="866" key="VCS.FileHistoryDialog" timestamp="1608557709352">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="VCS.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1608557709352" />
   </component>
 </project>

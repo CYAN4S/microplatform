@@ -11,21 +11,27 @@ public class UIController : MonoBehaviour
 
     public GameObject pause;
     public GameObject clear;
-    public GameObject touches;
+    public GameObject touchUI;
     
     public Toggle touchToggle;
 
     private void Awake()
     {
-        touchToggle.onValueChanged.AddListener(value =>
-        {
-            GameManager.Instance.isTouchEnabled = value;
-            touches.SetActive(value);
-        });
+        touchToggle.isOn = Input.touchSupported;
+        touchUI.SetActive(Input.touchSupported);
     }
 
     public void SetCoinCount(int count = 0)
     {
         coinCount.text = count.ToString();
+    }
+    
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pause.SetActive(!pause.activeSelf);
+            Debug.Log("VAR");
+        }
     }
 }

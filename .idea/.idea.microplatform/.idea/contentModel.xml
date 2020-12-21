@@ -8,7 +8,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="GameQuit.cs" t="Include" />
         <e p="Joystick Pack" t="Include">
           <e p="Scripts" t="Include">
             <e p="Base" t="Include">
@@ -41,6 +40,7 @@
         <e p="Scripts" t="Include">
           <e p="BackgroundManager.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="GameQuit.cs" t="Include" />
           <e p="ParallexEffect.cs" t="Include" />
           <e p="PlatformPlayerController2D.cs" t="Include" />
           <e p="PlayerBehaviour.cs" t="Include" />
@@ -78,7 +78,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="TouchButton.cs" t="Include" />
       </e>
       <e p="microplatform.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,6 +16,8 @@ public class GameManager : MonoBehaviour
 
     public bool isTouchEnabled = false;
 
+    public void SetIsTouchEnabled(bool value) => isTouchEnabled = value;
+
     private void Awake()
     {
         if (Instance != null)
@@ -25,6 +28,8 @@ public class GameManager : MonoBehaviour
         Instance = this;
 
         ui = GetComponent<UIController>();
+
+        isTouchEnabled = Input.touchSupported;
     }
 
     public void OnCoinEarned()
@@ -44,8 +49,4 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void OnToggleValueChanged(bool value)
-    {
-        
-    }
 }
