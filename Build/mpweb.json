@@ -1,0 +1,16 @@
+{
+"companyName": "CYAN4S STUDIO",
+"productName": "microplatform",
+"productVersion": "0.0.1",
+"dataUrl": "mpweb.data.unityweb",
+"wasmCodeUrl": "mpweb.wasm.code.unityweb",
+"wasmFrameworkUrl": "mpweb.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#828080",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.13f1"
+}
