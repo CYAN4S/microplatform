@@ -42,7 +42,7 @@ public class PlayerBehaviour : MonoBehaviour
             audioSource.PlayOneShot(coinAudio);
         }
 
-        if (other.gameObject.CompareTag("Chest") && !GameManager.Instance.isCleared)
+        if (other.gameObject.CompareTag("Chest") && !GameManager.Instance.IsCleared)
         {
             other.GetComponent<Animator>().SetTrigger("ChestOpen");
             GameManager.Instance.OnClear();

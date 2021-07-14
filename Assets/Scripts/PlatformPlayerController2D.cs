@@ -6,34 +6,34 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class PlatformPlayerController2D : MonoBehaviour
 {
-    [Header("Required")]
+    [Header("Required")] 
     [SerializeField] Collider2D[] platformCollider2D = null;
     [SerializeField] Collider2D floorTriggerCollider2D = null;
 
-    [Header("Game Value")]
+    [Header("Game Value")] 
     [SerializeField] float moveVelocity = 0;
     [SerializeField] float jumpForce = 0;
     [SerializeField] int maxJumpInAirCount = 1;
 
-    Rigidbody2D rb;
+    private Rigidbody2D rb;
 
 
-    private bool _isMovable = true;
+    private bool isMovable = true;
+
     public bool IsMovable
     {
-        get => _isMovable;
+        get => isMovable;
         set
         {
-            _isMovable = value;
-            switch (value)
+            isMovable = value;
+            if (isMovable)
             {
-                case false:
-                    rb.isKinematic = true;
-                    rb.velocity = Vector2.zero;
-                    break;
-                case true:
-                    rb.isKinematic = false;
-                    break;
+                rb.isKinematic = false;
+            }
+            else
+            {
+                rb.isKinematic = true;
+                rb.velocity = Vector2.zero;
             }
         }
     }

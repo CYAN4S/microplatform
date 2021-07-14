@@ -9,10 +9,10 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    UIController ui;
+    private UIController ui;
     
     public int CoinPoint { get; private set; }
-    public bool isCleared { get; private set; } = false;
+    public bool IsCleared { get; private set; } = false;
 
     public bool isTouchEnabled = false;
 
@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
 
     public void OnClear()
     {
-        isCleared = true;
+        IsCleared = true;
         Invoke(nameof(ReloadScene), 3);
     }
 

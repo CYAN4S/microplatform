@@ -31,7 +31,6 @@ public class UIController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             pause.SetActive(!pause.activeSelf);
-            Debug.Log("VAR");
         }
     }
 }
